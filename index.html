@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MindEase - Your Digital Companion for Mental Well-being. Therapy, Meditation, and Support Community all in one platform.">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png" type="image/png">
+    <title>MindEase - Your Digital Companion for Mental Well-being</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h2>MindEase</h2>
+                </div>
+                <div class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#assessment">Assessment</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Announcement Banner -->
+        <div class="announcement-banner">
+            <div class="container">
+                <p><strong>New:</strong> Free mental health assessment now available! <a href="#assessment">Try it now</a></p>
+                <button class="close-banner" aria-label="Close announcement"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="fade-in">Your Digital Companion for Mental Well-being</h1>
+                    <p class="fade-in delay-1">Therapy, Meditation, and Support Community — All in One Platform</p>
+                    <button class="cta-button fade-in delay-2" id="hero-cta">Get Started</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="service-cards">
+                    <div class="service-card" data-service="therapy" tabindex="0">
+                        <div class="card-inner">
+                            <div class="icon">
+                                <i class="fas fa-comments" aria-hidden="true"></i>
+                            </div>
+                            <h3>Online Therapy</h3>
+                            <p>Connect with licensed therapists from anywhere</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-service="corporate" tabindex="0">
+                        <div class="card-inner">
+                            <div class="icon">
+                                <i class="fas fa-building" aria-hidden="true"></i>
+                            </div>
+                            <h3>Corporate Plans</h3>
+                            <p>Mental wellness solutions for your team</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-service="meditation" tabindex="0">
+                        <div class="card-inner">
+                            <div class="icon">
+                                <i class="fas fa-spa" aria-hidden="true"></i>
+                            </div>
+                            <h3>Meditation Tools</h3>
+                            <p>Guided sessions for daily mindfulness</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-service="vr" tabindex="0">
+                        <div class="card-inner">
+                            <div class="icon">
+                                <i class="fas fa-vr-cardboard" aria-hidden="true"></i>
+                            </div>
+                            <h3>VR Therapy</h3>
+                            <p>Immersive therapeutic experiences</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-service="community" tabindex="0">
+                        <div class="card-inner">
+                            <div class="icon">
+                                <i class="fas fa-users" aria-hidden="true"></i>
+                            </div>
+                            <h3>Support Community</h3>
+                            <p>Connect with others on similar journeys</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-details" id="serviceDetails">
+                    <div class="close-details" aria-label="Close service details">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="details-content"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Section -->
+        <section id="community" class="community">
+            <div class="container">
+                <h2 class="section-title">Our Community</h2>
+                <div class="community-content">
+                    <p>Join our supportive community where you can connect with others on similar mental health journeys. MindEase provides a safe, moderated space to share experiences, learn from peers, and grow together.</p>
+                    
+                    <div class="community-features">
+                        <div class="feature">
+                            <div class="icon">
+                                <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                            </div>
+                            <h3>Safe Space</h3>
+                            <p>Moderated environment where respect and confidentiality are paramount</p>
+                        </div>
+
+                        <div class="feature">
+                            <div class="icon">
+                                <i class="fas fa-hand-holding-heart" aria-hidden="true"></i>
+                            </div>
+                            <h3>Peer Support</h3>
+                            <p>Connect with others who understand your experiences</p>
+                        </div>
+
+                        <div class="feature">
+                            <div class="icon">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </div>
+                            <h3>Shared Growth</h3>
+                            <p>Learn and grow by exchanging insights and coping strategies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="resources">
+            <div class="container">
+                <h2 class="section-title">Resources & Learning</h2>
+                
+                <div class="resource-tabs">
+                    <div class="resource-tab active" data-resource="therapy" tabindex="0">Online Therapy</div>
+                    <div class="resource-tab" data-resource="meditation" tabindex="0">Meditation</div>
+                    <div class="resource-tab" data-resource="corporate" tabindex="0">Workplace Wellness</div>
+                    <div class="resource-tab" data-resource="vr" tabindex="0">VR Therapy</div>
+                    <div class="resource-tab" data-resource="community" tabindex="0">Community</div>
+                </div>
+                
+                <div class="resources-content">
+                    <!-- Content will be loaded dynamically -->
+                    <div class="resource-welcome">
+                        <h3>Welcome to MindEase Resources</h3>
+                        <p>Select a topic above to explore our curated content, videos, and tools.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Assessment Section -->
+        <section id="assessment" class="assessment">
+            <div class="container">
+                <h2 class="section-title">Mental Health Assessment</h2>
+                <div class="assessment-intro">
+                    <p>Take our free mental health screening to gain insights about your wellbeing. This confidential assessment takes about 5 minutes to complete.</p>
+                    <button class="cta-button start-assessment">Start Assessment</button>
+                </div>
+                
+                <div class="assessment-questions" style="display: none;">
+                    <!-- Assessment questions will be loaded here -->
+                </div>
+                
+                <div class="assessment-results" style="display: none;">
+                    <!-- Results will be shown here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Client Testimonials</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-content">
+                            <div class="quote"><i class="fas fa-quote-left" aria-hidden="true"></i></div>
+                            <p>MindEase helped me navigate through my anxiety during a particularly difficult time. The meditation tools became my daily companion, and the therapist I connected with provided invaluable guidance.</p>
+                            <div class="testimonial-author">
+                                <h4>Sarah M.</h4>
+                                <p>Using MindEase for 8 months</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="quote"><i class="fas fa-quote-left" aria-hidden="true"></i></div>
+                            <p>As someone dealing with chronic stress, finding MindEase was a turning point. The community support combined with professional guidance created a holistic approach to my wellbeing.</p>
+                            <div class="testimonial-author">
+                                <h4>James K.</h4>
+                                <p>Using MindEase for 1 year</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="quote"><i class="fas fa-quote-left" aria-hidden="true"></i></div>
+                            <p>Implementing MindEase's corporate program in our company has significantly improved team morale and reduced burnout. The data-driven approach helped us identify stress points and address them effectively.</p>
+                            <div class="testimonial-author">
+                                <h4>Linda T.</h4>
+                                <p>HR Director, Tech Solutions Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="prev-testimonial" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-indicators">
+                        <span class="indicator active" aria-label="Testimonial 1"></span>
+                        <span class="indicator" aria-label="Testimonial 2"></span>
+                        <span class="indicator" aria-label="Testimonial 3"></span>
+                    </div>
+                    <button class="next-testimonial" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-wrapper">
+                    <div class="social-icons">
+                        <a href="mailto:rohitkrrajak8051@mindease.com" class="social-icon" aria-label="Email us">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/918051568658?text=Hello,%20I%20need%20mental%20health%20support." class="social-icon" aria-label="Chat on WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/r0hitnov/?__pwa=1" class="social-icon" aria-label="Follow us on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="founder-info">
+                <div class="founder-photo">
+                    <img src="assets\images\PF.png" alt="Rohit Kumar Rajak" loading="lazy">
+                </div>
+                <p>Developed by Rohit Kumar Rajak</p>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="current-year"></span> MindEase. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
