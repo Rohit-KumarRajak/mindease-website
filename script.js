@@ -373,7 +373,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const subject = `MindEase Contact from ${name}`;
             const mailtoBody = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage: ${message}`;
             
-            window.location.href = `mailto:contact@mindease.com?subject=${encodeURIComponent(subject)}&body=${mailtoBody}`;
+            window.location.href = `mailto:rohitkrrajak8051@gmail.com?subject=${encodeURIComponent(subject)}&body=${mailtoBody}`;
             
             contactForm.reset();
             alert('Thank you for your message! We will get back to you soon.');
